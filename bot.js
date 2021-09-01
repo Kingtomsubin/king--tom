@@ -1,7 +1,7 @@
 /* Copyright (C) 2020 JIHAD.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-WhatsAsena - elsamwol
+WhatsAsena - king--tom
 */
 
 const fs = require("fs");
@@ -133,7 +133,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.green.bold('ElsaMwol working! 🕺')
+            chalk.green.bold('king--to working! 🕺')
         );
     });
     
@@ -176,7 +176,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
             if (gb !== false) {
                 var sewqueenimage = await axios.get(config.GIF_BYE, { responseType: 'arraybuffer' })
-                await conn.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message +'\n\n                 ᴘᴏᴡᴇʀᴅ ʙʏ ```Elsa```'});
+                await conn.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message +'\n\n                 ᴘᴏᴡᴇʀᴅ ʙʏ ```king--tom```'});
             }
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
@@ -184,7 +184,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
             var gb = await getMessage(msg.key.remoteJid);
             if (gb !== false) {
             var sewqueenimage = await axios.get(config.GIF_WEL, { responseType: 'arraybuffer' })
-            await conn.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message +'\n\n                 ᴘᴏᴡᴇʀᴅ ʙʏ ```Elsa```'});
+            await conn.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message +'\n\n                 ᴘᴏᴡᴇʀᴅ ʙʏ ```king--tom```'});
             }
             return;
         }
@@ -250,7 +250,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                             await command.function(whats, match);
                         } catch (error) {
                             if (config.LANG == 'TR' || config.LANG == 'AZ') {
-                                await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [ElsaMwol V2] --' + 
+                                await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [king--tom] --' + 
                                     '\n*WhatsAsena bir hata gerçekleşti!*'+
                                     '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
                                     '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
@@ -258,7 +258,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '💝______```ElsaMwol V2```_____💝' +
+                                await conn.sendMessage(conn.user.jid, '💝______```king--tom```_____💝' +
                                     '\n\n*🙍 ' + error + '*\n'
                                     , MessageType.text);
                             }
